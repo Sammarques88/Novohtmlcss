@@ -1,0 +1,61 @@
+body{
+    padding-bottom: 550px;
+}
+
+/* flexbox */
+
+.flexbox{
+    display: flex;
+    background-color: blue;
+    color: white;
+    margin-bottom: 30px;
+}
+
+/* Flex Direction */
+
+.flex-direction{
+    display: flex;
+    flex-direction: column;
+    background-color: #bbb;
+}
+
+/* Flex Wrap */
+
+.flex-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.caixa{
+    height: 50px;
+    width: 33%;
+    border: 2px solid salmon;
+}
+
+/* Flex justify-Content */
+
+.center, .space-around, .space-between, .end{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.center .caixa, .space-around .caixa, .space-between .caixa, .end .caixa{
+    width: 60px;
+}
+
+.center{
+    justify-content: center;
+}
+
+.space-around{
+    justify-content: space-around;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.end{
+    justify-content: end;
+}
