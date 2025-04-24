@@ -59,3 +59,84 @@ body{
 .end{
     justify-content: end;
 }
+
+/* Align-Items*/
+.align-items, .flex-end, .stretch {
+    display: flex;
+    height: 200px;
+    margin-bottom: 30px;
+    border: 3px solid rgb(56, 160, 8);
+}
+ 
+.align-items .caixa, .flex-end .caixa, .stretch .caixa {
+    width: 60px;
+}
+ 
+.align-items {
+    align-items: center;
+    justify-content: center;
+}
+ 
+.flex-end {
+    align-items: flex-end;
+}
+ 
+.stretch {
+    align-items: stretch;
+}
+ 
+.stretch .caixa {
+    height: auto;
+}
+ 
+/* Gap*/
+.gap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid rgb(225, 52, 17);
+    gap: 40px;    
+}
+ 
+.gap .caixa {
+    width: 32%;
+}
+ 
+/*Order*/
+.order {
+    display: flex;
+}
+ 
+#a {
+    order: 1;
+}
+#b {
+    order: 2;
+}
+#c {
+    order: 3;
+}
+ 
+/*Grow*/
+.grow {
+    display: flex;
+}
+.grow .caixa {
+    flex: 1;
+}
+ 
+.grow .maior {
+    flex: 2;
+}
+ 
+/* flex basis */
+ 
+.flex-basis {
+    display: flex;
+}
+.flex-basis .caixa {
+    flex-basis: 50px;
+}
+.flex-basis .maior {
+    flex-grow: 1;
+}
